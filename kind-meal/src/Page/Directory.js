@@ -9,26 +9,29 @@ const Directory = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const [find, setfind] = useState("");
-
-  const fetchCitiesDataAndUpdate = (page,find) => {
-    getaddress({ page, limit: 4 ,find})
+  const [country, setCountry] = useState("");
+  const fetchCitiesDataAndUpdate = (page, find,country) => {
+    getaddress({ page, limit: 4, find ,country})
       .then((res) => setData(res.data))
       .catch((err) => console.log("error is ", err))
       .finally(() => console.log("call completed"));
   };
 
   useEffect(() => {
-    fetchCitiesDataAndUpdate(page,find);
-  }, [page,find]);
+    fetchCitiesDataAndUpdate(page, find,country);
+  }, [page, find,country]);
 
   const getData = (el) => {
     setfind(el);
+  };
+  const getcount = (el) => {
+    setCountry(el);
   };
 
   return (
     <Box>
       {/* ################################################################# */}
-      <Directory1 onSubmit={getData} />
+      <Directory1 onSubmit={getData} onSubmit1={getcount} />
       {/* ########################################################################## */}
       <Stack
         direction="row"
@@ -38,14 +41,9 @@ const Directory = () => {
         width="80%"
         margin="auto"
         padding={10}
-        gap="30px"
-      >
+        gap="30px">
         <Text fontSize="20px">Page</Text>
-        <Pagination
-          total={6}
-          current={page}
-          onChange={(value) => setPage(value)}
-        />
+        <Pagination total={6} current={page} onChange={(value) => setPage(value)}/>
         {/* &rbrace; */}
       </Stack>
 
