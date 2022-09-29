@@ -9,12 +9,21 @@ import {
   Button,
   MenuItem,
   Image,
+  
 } from "@chakra-ui/react";
 import{useState} from "react"
 
-const Directory1 = () => {
-  
 
+
+
+const Directory1 = (props) => {
+  
+  const [name, setName] = useState("");
+ 
+  const handlesubmit=(e)=>{
+    e.preventDefault();
+    props.onSubmit(name)
+  }
   
 
   return (
@@ -40,6 +49,7 @@ const Directory1 = () => {
 
           <Stack spacing="95px" paddingTop="30px" direction="row">
             <Box width="25%">
+              <form onSubmit={handlesubmit}>
               <Input
                 placeholder="Search Shop Name"
                 size="md"
@@ -48,10 +58,11 @@ const Directory1 = () => {
                 bg="white"
                 fontSize="20px"
                 name="search"
-                // value={searchData.search}
-                // onChange={handleChange}
+                onChange={(e) => setName(e.target.value)}
+                value={name}
                 type="text"
               />
+              </form>
             </Box>
             <Box width="20%">
               <Menu paddingTop="-10px">
@@ -78,26 +89,18 @@ const Directory1 = () => {
                 >
                   All Shops in Malaysia
                 </MenuButton>
-                <MenuList>
-                  <MenuItem minH="48px">
-                    <Image
-                      boxSize="2rem"
-                      borderRadius="full"
-                      src="https://placekitten.com/100/100"
-                      alt="Fluffybuns the destroyer"
-                      mr="12px"
-                    />
-                    <span>Fluffybuns the Destroyer</span>
+                <MenuList name="search">
+                  <MenuItem minH="48px" value="ann">
+                    <span>Annalashmi Cafe</span>
                   </MenuItem>
-                  <MenuItem minH="40px">
-                    <Image
-                      boxSize="2rem"
-                      borderRadius="full"
-                      src="https://placekitten.com/120/120"
-                      alt="Simon the pensive"
-                      mr="12px"
-                    />
-                    <span>Simon the pensive</span>
+                  <MenuItem minH="40px" value="ber">
+                    <span>Berjaye Cafe</span>
+                  </MenuItem>
+                  <MenuItem minH="48px" value="ba">
+                    <span>Ba-Xian Cafe</span>
+                  </MenuItem>
+                  <MenuItem minH="40px" value="bakti">
+                    <span>Bakti Wodless Cafe</span>
                   </MenuItem>
                 </MenuList>
               </Menu>
@@ -133,3 +136,4 @@ const Directory1 = () => {
   );
 };
 export default Directory1;
+

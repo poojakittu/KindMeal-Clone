@@ -1,0 +1,238 @@
+{
+  "address": [
+    {
+      "id": 1,
+      "name": "Berjaye Cafe",
+      "address": "Level 14 West, Berjaya Times Square Hotel, No. 1, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan ",
+      "phone":"+91-1234666544",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily: 6:30am - 9:00pm"
+    },
+    {
+      "id": 2,
+      "name": "Annalashmi Cafe",
+      "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan ",
+      "phone":"03-22723799, 03-22843799",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Tue-Sun 11am-3pm, 6:30-10pm."
+    },
+    {
+      "id": 3,
+      "name": "Ba-Xian Cafe",
+      "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":" A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 4,
+      "name": "Bakti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 5,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 6,
+      "name": "Wodless Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 7,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 8,
+      "name": "Jalan Burung Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 9,
+      "name": "Berjaye Cafe",
+      "address": "Level 14 West, Berjaya Times Square Hotel, No. 1, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan ",
+      "phone":"+91-1234666544",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily: 6:30am - 9:00pm"
+    },
+    {
+      "id": 10,
+      "name": "Annalashmi Cafe",
+      "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan ",
+      "phone":"03-22723799, 03-22843799",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Tue-Sun 11am-3pm, 6:30-10pm."
+    },
+    {
+      "id": 11,
+      "name": "Ba-Xian Cafe",
+      "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":" A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 12,
+      "name": "Bakti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 13,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 14,
+      "name": "Wodless Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 15,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 16,
+      "name": "Jalan Burung Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 17,
+      "name": "Berjaye Cafe",
+      "address": "Level 14 West, Berjaya Times Square Hotel, No. 1, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan ",
+      "phone":"+91-1234666544",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily: 6:30am - 9:00pm"
+    },
+    {
+      "id": 18,
+      "name": "Annalashmi Cafe",
+      "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan ",
+      "phone":"03-22723799, 03-22843799",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Tue-Sun 11am-3pm, 6:30-10pm."
+    },
+    {
+      "id": 19,
+      "name": "Ba-Xian Cafe",
+      "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":" A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 20,
+      "name": "Bakti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 21,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 22,
+      "name": "Wodless Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 23,
+      "name": "Arti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 24,
+      "name": "Jalan Burung Cafe",
+      "address": "5Unit G-8, Ground Floor, Nexus, No. 7, Jalan Kerinchi, 59200 Kuala Lumpur, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 25,
+      "name": "Berjaye Cafe",
+      "address": "Level 14 West, Berjaya Times Square Hotel, No. 1, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan ",
+      "phone":"+91-1234666544",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily: 6:30am - 9:00pm"
+    },
+    {
+      "id": 26,
+      "name": "Annalashmi Cafe",
+      "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan ",
+      "phone":"03-22723799, 03-22843799",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Tue-Sun 11am-3pm, 6:30-10pm."
+    },
+    {
+      "id": 27,
+      "name": "Ba-Xian Cafe",
+      "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":" A refreshing Meatless Dining Concept from Secret Recipe Cakes & Café Group. Extensive Menu range inspired by all fresh and natural products with a selection of natural products and ingredi…",
+      "opening":"Daily 10am-10pm."
+    },
+    {
+      "id": 28,
+      "name": "Bakti Wodless Cafe",
+      "address": "55 Leboh Ampang (at near Masjid Jamek LRT station), Kuala Lumpur, 50100, Wilayah Persekutuan",
+      "phone":"03-62778052",
+      "description":"Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of life",
+      "opening":"Daily 10am-10pm."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
