@@ -5,7 +5,7 @@ export const getaddress = (params = {}) => {
     params: {
       _page: params.page,
       _limit: params.limit,
-      q:params.find}
+        q:params.find || params.country}
     })
    
 };

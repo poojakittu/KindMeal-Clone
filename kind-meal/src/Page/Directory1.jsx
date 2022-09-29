@@ -3,13 +3,7 @@ import {
   Stack,
   Box,
   Input,
-  MenuButton,
-  Menu,
-  MenuList,
   Button,
-  MenuItem,
-  Image,
-  
 } from "@chakra-ui/react";
 import{useState} from "react"
 
@@ -19,12 +13,17 @@ import{useState} from "react"
 const Directory1 = (props) => {
   
   const [name, setName] = useState("");
+  const [country, setCountry] = useState("");
  
   const handlesubmit=(e)=>{
     e.preventDefault();
     props.onSubmit(name)
   }
-  
+  const handlesubmit1=(e)=>{
+    e.preventDefault();
+    props.onSubmit1(country)
+  }
+ 
 
   return (
     <Box width="100%" bg="#f0f0f0">
@@ -35,6 +34,7 @@ const Directory1 = (props) => {
         padding="40px"
         textColor=""
       >
+       
         <Stack spacing={4}>
           <Text fontSize="4xl">Vegetarian Restaurants In Malaysia</Text>
           <Text fontSize="xl">
@@ -64,46 +64,17 @@ const Directory1 = (props) => {
               />
               </form>
             </Box>
-            <Box width="20%">
-              <Menu paddingTop="-10px">
-                <MenuButton
-                  as={Button}
-                  bg="white"
-                  width="100%"
-                  fontSize="20px"
-                  rightIcon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-chevron-down"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                      />
-                    </svg>
-                  }
-                >
-                  All Shops in Malaysia
-                </MenuButton>
-                <MenuList name="search">
-                  <MenuItem minH="48px" value="ann">
-                    <span>Annalashmi Cafe</span>
-                  </MenuItem>
-                  <MenuItem minH="40px" value="ber">
-                    <span>Berjaye Cafe</span>
-                  </MenuItem>
-                  <MenuItem minH="48px" value="ba">
-                    <span>Ba-Xian Cafe</span>
-                  </MenuItem>
-                  <MenuItem minH="40px" value="bakti">
-                    <span>Bakti Wodless Cafe</span>
-                  </MenuItem>
-                </MenuList>
-              </Menu>
+            <Box width="50%" height="20px">
+           
+              <select name="country" value={country} onClick={handlesubmit1}  onChange={(e) => setCountry(e.target.value)} >
+                <option padding="15px">All Shops in Malashiya</option>
+                <option value="Berjaye Cafe">Berjaye Cafe</option>
+                <option value="Berjaye Cafe">Berjaye Cafe</option>
+                <option value="Ba-Xian Cafe">Ba-Xian Cafe</option>
+                <option value="Arti Wodless Cafe">Arti Wodless Cafe</option>
+              </select>
+            
+             
             </Box>
             <Box width="15%">
               <Button

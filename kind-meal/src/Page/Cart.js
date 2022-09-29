@@ -2,7 +2,7 @@ import { Grid,GridItem, Heading,Text,Divider,Image } from '@chakra-ui/react'
  const Card=({id,name,des,phone,address,opening})=>{
     
     return(
-        <GridItem spacing="20px" paddingTop="20px" textAlign="left" rowGap="50px" padding="25px" boxShadow='base' borderRadius="15px" id={id}>
+        <GridItem spacing="20px" paddingTop="20px" textAlign="left" rowGap="50px" padding="25px" boxShadow='dark-lg' p='6' rounded='md' bg='white' borderRadius="15px" id={id}>
                 <Heading>{name}</Heading>
                 
                 <Text fontSize="18px" paddingTop="10px">{des}</Text>
