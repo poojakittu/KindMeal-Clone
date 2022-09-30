@@ -41,7 +41,8 @@ const Directory = () => {
         width="80%"
         margin="auto"
         padding={10}
-        gap="30px">
+        gap="30px"
+      >
         <Text fontSize="20px">Page</Text>
         <Pagination total={6} current={page} onChange={(value) => setPage(value)}/>
         {/* &rbrace; */}
@@ -69,6 +70,6 @@ const Directory = () => {
       </Grid>
     </Box>
   );
-};
+}
 
 export default Directory;

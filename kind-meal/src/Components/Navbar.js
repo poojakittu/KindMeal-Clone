@@ -1,10 +1,12 @@
 import Navbar1 from './Navbar1';
+import Login from '../Page/Login';
 import { Box, Image, Text, Button, Wrap, WrapItem } from "@chakra-ui/react";
+import Signup from '../Page/Singnup';
 const Navbar = () => {
   return (
     <div>
-      <Box bg="white" w="100%" p={4} color="white" display={{ base: 'coloumn', md: 'coloumn', lg: 'row' }} padding={4}>
-        <Wrap spacing="130px" width="80%"  margin="auto"  justifyContent={{lg:"space-between"}}>
+      <Box bg="white" w="100%" p={2} color="white" display={{ base: 'coloumn', md: 'coloumn', lg: 'row' }} padding={4}>
+        <Wrap spacing="120px" width="80%"  margin="auto"  justifyContent={{lg:"space-between"}}>
           <Box>
             <Image
               src="https://www.kindmeal.my/images/logo-kindmeal.png"
@@ -37,11 +39,8 @@ const Navbar = () => {
           </Box>
 
           <Wrap spacing={4} padding="20px">
-            <WrapItem>
-              <Button bg="white" borderRadius="0px" color="black" size="sm">
-                <Text fontSize="lg">Login</Text>{" "}
-              </Button>
-            </WrapItem>
+            <Login/> 
+           
             <WrapItem>
               <Button colorScheme="teal" size="sm">
                 <Text fontSize="lg">Facebook</Text>{" "}
@@ -54,10 +53,7 @@ const Navbar = () => {
               </Button>
             </WrapItem>
             <WrapItem>
-              <Button bg="white" borderRadius="0px" color="black" size="sm">
-                {" "}
-                <Text fontSize="lg">Signup</Text>{" "}
-              </Button>
+                <Signup/>
             </WrapItem>
           </Wrap>
         </Wrap>

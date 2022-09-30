@@ -6,6 +6,7 @@ import Recipes from "../Page/Recipes"
 import Directory from "../Page/Directory"
 import Articles from "../Page/Articles"
 import Hotpics from "../Page/Hotpics"
+import Signup1 from "../Page/Signup1"
 const Allroutes=()=>{
     return(
         <Routes>
@@ -17,6 +18,7 @@ const Allroutes=()=>{
         <Route path="/Directory" element={<Directory/>}></Route>
         <Route path="/Articles" element={<Articles/>}></Route>
         <Route path="/Hotpics" element={<Hotpics/>}></Route>
+        <Route path="/Signup1" element={<Signup1/>}></Route>
         </Routes>
 
     )

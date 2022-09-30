@@ -1,7 +1,10 @@
+
+
 const Help=()=>{
     return(
         <div>
-            Help
+            <h1>HELLO</h1>
+            
         </div>
     )
 }

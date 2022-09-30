@@ -1,5 +1,5 @@
 
-import { Box } from '@chakra-ui/react'
+import { Box ,Image} from '@chakra-ui/react'
 import Home1 from './Home1'
 import Home2 from './Home2'
 import Home3 from './home3'
@@ -15,9 +15,12 @@ const Home=()=>{
             <Home3/>
             <Home4/>
             <Home5/>
-            <Home6/>
-            
-
+            <Home6/>        
+            <Box width="100%" background="#ececec"marginTop="90px" marginBottom="-50px">
+                <Box width="80%"  justifyItems="center"  margin="auto">
+                <Image src="https://www.kindmeal.my/images/banner_whykindmeal.png" width="100%"/>
+                </Box>
+            </Box>
         </Box>
         
         
