@@ -1,4 +1,4 @@
-import { Box,Heading,Image,Grid,GridItem,Text } from '@chakra-ui/react'
+import { Box,Heading,Image,Grid,GridItem,Text,Button } from '@chakra-ui/react'
 const Home6=()=>{
     const data=[
         {img:"https://www.kindmeal.my/images/intro_deal.png",
@@ -38,9 +38,18 @@ const Home6=()=>{
             </Box>
         
             <Text fontSize='2xl' margin="auto" marginTop="90px" width="90%" >Any restaurant or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are meat-free.
-Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!</Text>
+                Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!</Text>
 
-        
+            <Button background="red" borderRadius="15" height={40} display="row" margin={90} color="white" padding={10} width="40%">
+                <Heading size="2xl">Join KindMeal Now</Heading>
+                <Heading size="md">Your tasty journey begins here</Heading>
+            </Button>
+
+            <Heading color="gray">Featured On</Heading>
+            <Box margin="auto" width="90%">
+                <Image src="https://www.kindmeal.my/images/media-feature2.png"/>
+            </Box>
+            
         </Box>
 
     )
