@@ -10,8 +10,7 @@ import Signup1 from "../Page/Signup1"
 const Allroutes=()=>{
     return(
         <Routes>
-        <Route path="/" element={
-        <Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/Help" element={<Help/>}></Route>
         <Route path="/Meal" element={<Meal/>}></Route>
         <Route path="/Recipes" element={<Recipes/>}></Route>
