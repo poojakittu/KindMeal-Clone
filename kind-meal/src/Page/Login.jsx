@@ -8,10 +8,55 @@ import {
     Button,Box,Image, Heading,Input,FormControl,Center,Divider,Text
 
   } from '@chakra-ui/react'
-  import React from 'react'
-const Login=()=> {
+  import React,{useState} from "react";
+import { Navigate } from "react-router-dom";
+import { AuthContext } from "./AuthContext";
+    const Login=()=> {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const finalRef = React.useRef(null)
+    const { isAuth, toggleAuth } = React.useContext(AuthContext);
+  const [message, setMessage] = useState("");
+  const [pass, setpass] = useState("");
+  const handleChange = (event) => {
+    setMessage(event.target.value);
+  };
+  const handleChange1 = (event) => {
+    setpass(event.target.value);
+  };
+  if (isAuth) {
+    return <Navigate to="/meal" />;
+  }
+  
+  
+  
+
+  // let obj = {
+  //   email: "eve.holt@reqres.in",
+  //   password: "cityslicka"
+  // };
+
+  
+  let obj = {
+    email:message ,
+    password: pass
+  };
+
+  const fetchnUpdate = async () => {
+    let res = await fetch(`https://reqres.in/api/login`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(obj)
+    });
+
+    let data = await res.json();
+    toggleAuth(data.token);
+    console.log(data.token);
+  };
+  const alert=()=>{
+    alert("User login")
+  }
   
     return (
         <>
@@ -25,16 +70,18 @@ const Login=()=> {
                 <Image src="https://www.kindmeal.my/images/logo-kindmeal.png"alt="logot"paddingLeft={120}/>
                 <Heading size="xl">Member Login</Heading>
                 <Box width={400} margin="auto" padding={10}>
-                    <FormControl>
-                    <Input type="email" placeholder="email address"  max={20} margin={2}/>
-                    <Input type="Password" placeholder="Password" margin={2} />
-                    <Input type="Submit" name="Login" margin={2} bg="green" color="white" onClick={onClose}/>
+                    <FormControl onSubmit={fetchnUpdate} >
+                    <Input type="email" placeholder="email address"  max={20} margin={2} onChange={handleChange}
+                    value={message}/>
+                    <Input type="Password" placeholder="Password" margin={2} onChange={handleChange1}
+                    value={pass} />
+                    <Input type="Submit" name="Login" margin={2} bg="green" color="white" onClick={onClose}  />
                     </FormControl>
 
                 </Box>
                     <Center height='1px' bg="gray">
                         <Divider orientation='vertical' />
-                        </Center>
+                      </Center>
                     <Button colorScheme='blue' paddingLeft={20} paddingRight={20} marginTop={5}>Login with facebook</Button>
                     <Box display="flex" paddingTop={10} justifyContent="space-between">
                         <Text>Forgot password?</Text>
