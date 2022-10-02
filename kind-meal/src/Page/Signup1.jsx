@@ -29,7 +29,7 @@ const Signup1=()=>{
             </Box>
             <Box width="70%" padding={"10"} textAlign="left">
                 <Heading size={"lg"}>Restaurant / Shop Owner? Sign Up Now</Heading>
-                <Text fontSize="20px" width={"30"} paddingRight={"5"}>
+                <Text fontSize="20px" width={"30"} paddingRight={"5"} paddingTop={"2"}>
                 Improve your business, build brand loyalty, and save precious animal lives! Join KindMeal now to enjoy the following features:
                 </Text>
                 <Box width="90%" padding={3} paddingLeft={4}>
@@ -55,7 +55,7 @@ const Signup1=()=>{
                 </ul>
                 </Box>
                 <Text fontSize="20px" width={"30"} paddingRight={"5"}>
-                To support our welfare causes, we offer simple, affordable Premium Plans on a monthly subscription basis, starting from RM 99 only. No deal commissions, no hidden fees. Premium Plan details are available upon signing up.
+                Wish to find out more on how to use KindMeal? Please check out our frequently-asked questions below. If you are unable to find your answer here, please contact us for further assistance.
                 </Text>
                 <Box marginTop={"15"}>
                     <Heading color={"gray"}>Personal Profile</Heading>

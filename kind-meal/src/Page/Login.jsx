@@ -34,7 +34,7 @@ const Login=()=> {
                 </Box>
                     <Center height='1px' bg="gray">
                         <Divider orientation='vertical' />
-                        </Center>
+                      </Center>
                     <Button colorScheme='blue' paddingLeft={20} paddingRight={20} marginTop={5}>Login with facebook</Button>
                     <Box display="flex" paddingTop={10} justifyContent="space-between">
                         <Text>Forgot password?</Text>
