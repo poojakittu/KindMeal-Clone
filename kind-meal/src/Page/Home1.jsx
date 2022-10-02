@@ -1,4 +1,4 @@
-import { Image,Box, Heading } from '@chakra-ui/react'
+import { Image,Box } from '@chakra-ui/react'
 import Img from './Image';
 const Home1=()=>{
     const images = [

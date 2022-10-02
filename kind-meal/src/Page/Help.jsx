@@ -121,11 +121,11 @@ const Help=()=>{
                 <Heading size={"lg"} color="gray" paddingTop={"10"}>What is a Username?</Heading>
                 <Text fontSize="20px" width={"30"} paddingRight={"5"} paddingTop={"2"}>
                 Once a coupon is received, you can access the LiveCoupon and use it via one of the following ways. An Internet connection is required.
-At KindMeal website, under Account -> My Coupons section
-With our KindMeal mobile app, under Deals -> My Coupons section
-You should only activate the LiveCoupon when you are at the restaurant, and upon informing the merchant. Some merchants may require that you activate it during the ordering process, while some will be during the payment process. Please inform the merchant first when you are ordering to ensure they are aware of your KindMeal LiveCoupon.
+                    At KindMeal website, under Account -{">"} My Coupons section
+                    With our KindMeal mobile app, under Deals -{">"} My Coupons section
+                    You should only activate the LiveCoupon when you are at the restaurant, and upon informing the merchant. Some merchants may require that you activate it during the ordering process, while some will be during the payment process. Please inform the merchant first when you are ordering to ensure they are aware of your KindMeal LiveCoupon.
 
-Once an active LiveCoupon is loaded, you will see a timer counting down the time remaining to use it. To activate it, click on Use LiveCoupon. Please ensure that you only activate it upon the request of the merchant. Activating it ahead of time may void your coupon and deal.
+                    Once an active LiveCoupon is loaded, you will see a timer counting down the time remaining to use it. To activate it, click on Use LiveCoupon. Please ensure that you only activate it upon the request of the merchant. Activating it ahead of time may void your coupon and deal.
                 </Text>
               
 
@@ -133,7 +133,7 @@ Once an active LiveCoupon is loaded, you will see a timer counting down the time
                 <Text fontSize="20px" width={"30"} paddingRight={"5"} paddingTop={"2"}>
                 This depends on the specific deal. If the merchant allows it, you can also choose to print out the coupon and bring it along. Please refer to the deal's Terms & Conditions to check if print coupons are allowed, and if any prior reservation and usage delay are required.
 
-To print your coupon, first access it via KindMeal website at the Account->Account -> My Coupons section, then click on Print Coupon at the corresponding coupon. If the Print Coupon button is not available, it means that only LiveCoupons are accepted for the deal.
+To print your coupon, first access it via KindMeal website at the Account-{">"}Account -{">"} My Coupons section, then click on Print Coupon at the corresponding coupon. If the Print Coupon button is not available, it means that only LiveCoupons are accepted for the deal.
                 </Text>
                
 

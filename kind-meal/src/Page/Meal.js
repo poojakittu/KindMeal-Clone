@@ -4,22 +4,27 @@ import Card from "./Cart";
 import { useEffect, useState } from "react";
 import { getaddress } from "./api";
 import Pagination from "./Pagination";
+import { Navigate } from "react-router-dom";
+import { AuthContext } from "./AuthContext";
+import React from "react";
 
 const Meal = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const [find, setfind] = useState("");
   const [country, setCountry] = useState("");
-  const fetchCitiesDataAndUpdate = (page, find,country) => {
-    getaddress({ page, limit: 4, find ,country})
+
+  const { isAuth } = React.useContext(AuthContext);
+  const fetchCitiesDataAndUpdate = (page, find, country) => {
+    getaddress({ page, limit: 4, find, country })
       .then((res) => setData(res.data))
       .catch((err) => console.log("error is ", err))
       .finally(() => console.log("call completed"));
   };
 
   useEffect(() => {
-    fetchCitiesDataAndUpdate(page, find,country);
-  }, [page, find,country]);
+    fetchCitiesDataAndUpdate(page, find, country);
+  }, [page, find, country]);
 
   const getData = (el) => {
     setfind(el);
@@ -27,7 +32,7 @@ const Meal = () => {
   const getcount = (el) => {
     setCountry(el);
   };
-
+ 
   return (
     <Box>
       {/* ################################################################# */}
@@ -44,7 +49,11 @@ const Meal = () => {
         gap="30px"
       >
         <Text fontSize="20px">Page</Text>
-        <Pagination total={6} current={page} onChange={(value) => setPage(value)}/>
+        <Pagination
+          total={6}
+          current={page}
+          onChange={(value) => setPage(value)}
+        />
         {/* &rbrace; */}
       </Stack>
 
@@ -70,6 +79,6 @@ const Meal = () => {
       </Grid>
     </Box>
   );
-}
+};
 
 export default Meal;
